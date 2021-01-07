@@ -1,0 +1,79 @@
+body{
+
+background-image: url(israa.jpg);
+background-size: 100%;
+margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ background-repeat:inherit;
+
+
+}
+
+.menue{
+   
+    float:right;
+}
+.menue ul li {
+    background: rgb(248, 242, 234);
+    color: rgb(124, 62, 8);
+    float: right;
+    list-style-type: none;
+    margin:3px;
+    padding: 6px;
+    border-radius:8px ;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+a{color: rgba(255, 167, 35, 0.979);
+text-decoration: none;
+}
+a:hover{color: rgb(0, 0, 0);
+text-decoration: underline;
+}
+
+.info{
+
+    position:fixed;
+    top: 22%;
+    right: 8%;
+text-align: right;
+}
+.soul{
+color: rgb(255, 217, 0);
+font-size: 40px;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.enjoy{
+font-weight:bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size:30px ;
+line-height: 35px;
+text-align: right;
+color:rgb(237, 253, 11) ;
+background: rgb(71, 63, 63);
+box-shadow:  15px 15px rgba(0, 0, 0, 0.479);
+box-sizing: border-box;
+border-radius: 22px;
+padding: 13px;
+display: block;
+transition:all 0.5s ease-out ;
+}
+.footer{
+    
+font-size: 20px;
+ position: absolute;
+ bottom: 4%;
+ left: 5%;
+text-align: left;
+color: rgb(240, 132, 99);
+
+}
+
